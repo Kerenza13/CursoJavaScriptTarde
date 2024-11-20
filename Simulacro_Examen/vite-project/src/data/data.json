@@ -1,0 +1,95 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Pantalones",
+            "precio": 29.99,
+            "stock": {
+                "cantidad": 35,
+                "ubicacion": "Almacen B"
+            },
+            "categoria": {
+                "nombre": "Ropa",
+                "Subcategoria": "Casual"
+            },
+            "detalles": {
+                "material": "mezclilla",
+                "tallas disponibles": ["M", "L", "XL"],
+                "colores": ["azul", "gris", "negro"]
+            }
+        },
+        {
+            "id": 2,
+            "nombre": "Zapatillas",
+            "precio": 49.99,
+            "stock": {
+                "cantidad": 20,
+                "ubicacion": "Almacen C"
+            },
+            "categoria": {
+                "nombre": "Calzado",
+                "Subcategoria": "Deportivo"
+            },
+            "detalles": {
+                "material": "sintético",
+                "tallas disponibles": ["38", "40", "42", "44"],
+                "colores": ["blanco", "rojo", "negro"]
+            }
+        },
+        {
+            "id": 3,
+            "nombre": "Bolso",
+            "precio": 39.99,
+            "stock": {
+                "cantidad": 15,
+                "ubicacion": "Almacen A"
+            },
+            "categoria": {
+                "nombre": "Accesorios",
+                "Subcategoria": "Moda"
+            },
+            "detalles": {
+                "material": "cuero",
+                "tallas disponibles": ["Única"],
+                "colores": ["marrón", "negro"]
+            }
+        },
+        {
+            "id": 4,
+            "nombre": "Gorra",
+            "precio": 9.99,
+            "stock": {
+                "cantidad": 100,
+                "ubicacion": "Almacen B"
+            },
+            "categoria": {
+                "nombre": "Accesorios",
+                "Subcategoria": "Casual"
+            },
+            "detalles": {
+                "material": "poliéster",
+                "tallas disponibles": ["Única"],
+                "colores": ["rojo", "negro", "blanco"]
+            }
+        },
+        {
+            "id": 5,
+            "nombre": "Sudadera",
+            "precio": 24.99,
+            "stock": {
+                "cantidad": 45,
+                "ubicacion": "Almacen A"
+            },
+            "categoria": {
+                "nombre": "Ropa",
+                "Subcategoria": "Deportivo"
+            },
+            "detalles": {
+                "material": "algodón",
+                "tallas disponibles": ["S", "M", "L", "XL"],
+                "colores": ["gris", "negro", "azul"]
+            }
+        }
+    ],
+  "ventas": []
+}
